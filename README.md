@@ -1,5 +1,6 @@
 #### Running this locally
-1. ```shell
+1. Run
+   ```shell
    pip install -r requirements.txt
    ```
 2. Set up postgres database and adapt `testproject/settings.py`'s `DATABASES` as needed.
