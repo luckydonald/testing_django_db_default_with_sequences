@@ -1,0 +1,2 @@
+# testing_django_db_default_with_sequences
+testing_django_db_default_with_sequences
