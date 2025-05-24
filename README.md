@@ -2,7 +2,6 @@
 0. Have python 3.12
 1. Install
    ```shell
-   cd testproject
    pip install -r requirements.txt
    ```
 2. Set up postgres database and adapt `testproject/settings.py`'s `DATABASES` as needed.
@@ -10,8 +9,6 @@
 
 ### Run the test:
 ```shell
-cd testproject
-
 python manage.py migrate testapp zero \
 && rm -f testapp/migrations/0001_initial.py \
 && python manage.py makemigrations testapp \
@@ -31,6 +28,7 @@ python manage.py migrate testapp zero \
 > pip install -r requirements.txt      
 > django-admin startproject testproject
 > cd testproject/
+> git init
 > python manage.py startapp testapp
 > 
 > 
